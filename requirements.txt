@@ -1,0 +1,7 @@
+requests
+pydantic
+python-binance
+pandas
+numpy
+ta
+ccxt
