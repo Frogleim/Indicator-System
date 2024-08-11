@@ -27,12 +27,13 @@ class IndicatorChecker:
             try:
                 tasks = [EMA_Cross.check_signal(symbol) for symbol in self.symbols]
                 results = await asyncio.gather(*tasks)
+                print(results)
                 for result in results:
                     symbol = result[0]
                     signal = result[1]
                     entry_price = result[2]  # Assuming this is the third element in the result tuple
                     indicator = "EMA"  # This can be dynamic or static based on your requirement
-
+                    print(signal)
                     if signal != 'Hold':
                         loggs.system_log.warning(f'Getting signal for {symbol} {signal}')
                         signal_payload = SignalPayload(
@@ -41,9 +42,17 @@ class IndicatorChecker:
                             entry_price=entry_price,
                             indicator=indicator
                         )
-                        self.api.send_signal(signal_payload)
+                        print(signal_payload)
+                        try:
+                            print(f"Sending signal: {signal_payload}")
+                            loggs.system_log.warning(f'Sending signal: {signal_payload}')
+                            response = self.api.send_signal(signal_payload)
+                            loggs.system_log.warning(f'Signal sent. Response: {response}')
+                        except Exception as api_error:
+                            loggs.error_logs_logger.error(f'Error sending signal for {symbol}: {api_error}')
+
                         pause_event.clear()
-                        await asyncio.sleep(1800)
+                        await asyncio.sleep(1800)  # Sleep for 30 minutes after sending a signal
 
             except Exception as e:
                 EMA_Cross.loggs.error_logs_logger.error(f'EMA Crossover script down!\nError message: {e}')
