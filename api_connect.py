@@ -49,6 +49,21 @@ class API:
         else:
             return False
 
+    def get_signal(self):
+        r = requests.get(self.url + 'get_signal/', self.headers, verify=False)
+        return r.json()
+
+    def get_settings(self):
+        r = requests.get(self.url + 'get_trade_setting', self.headers, verify=False)
+        return r.json()
+
+    def clean_signals(self):
+        data = {
+            "table_name": "signals"
+        }
+        r = requests.post(self.url + 'clean_db/', self.headers, json=data,  verify=False)
+        return r.json()
+
 
 if __name__ == '__main__':
     api = API()
