@@ -207,3 +207,502 @@ Error message: HTTPSConnectionPool(host='77.37.51.134', port=8080): Max retries 
 2024-08-11 19:08:43,110 - ERROR - Error sending signal for MATIC/USDT: HTTPSConnectionPool(host='77.37.51.134', port=8080): Max retries exceeded with url: /insert-signal (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1006)')))
 2024-08-11 19:17:24,491 - ERROR - Error sending signal for MATIC/USDT: Expecting value: line 1 column 1 (char 0)
 2024-08-11 19:18:04,683 - ERROR - Error sending signal for MATIC/USDT: Expecting value: line 1 column 1 (char 0)
+2024-08-13 20:13:54,296 - ERROR - Error in calculate_indicators for BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo
+2024-08-13 20:13:54,303 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:13:54,311 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,110 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,112 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,117 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,217 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,218 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,219 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,316 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,317 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,317 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,416 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,417 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,418 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,517 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,518 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,519 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,618 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,619 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,619 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,720 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,721 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,721 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,826 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,827 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,827 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:50,926 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:50,927 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:50,928 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,028 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,030 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,030 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,161 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,162 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,163 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,294 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,295 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,296 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,395 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,396 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,396 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,497 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,498 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,498 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,599 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,600 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,600 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,699 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,700 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,701 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,800 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,800 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,801 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:51,902 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:51,903 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:51,903 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:52,002 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:52,003 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:52,004 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:52,135 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:52,136 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:52,137 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:52,236 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:52,237 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:52,237 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:52,337 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:52,338 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:52,339 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:52,959 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:52,960 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:52,960 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,060 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,060 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,061 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,159 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,160 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,160 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,259 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,260 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,260 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,363 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,364 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,364 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,464 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,465 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,466 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,565 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,565 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,566 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,665 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,666 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,667 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,765 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,766 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,767 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,866 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,867 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,867 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:53,966 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:53,966 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:53,967 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:54,100 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:54,101 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:54,101 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:54,204 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:54,205 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:54,206 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:54,337 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:54,338 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:54,339 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:54,438 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:54,439 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:54,439 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:54,546 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:54,547 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:54,547 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:54,647 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:54,648 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:54,649 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-13 20:16:54,750 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-13 20:16:54,751 - ERROR - No data available during signal check for BNB/USDT
+2024-08-13 20:16:54,752 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:20,947 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:20,950 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:20,955 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,051 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,052 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,053 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,155 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,156 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,156 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,258 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,259 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,260 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,364 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,366 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,366 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,469 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,471 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,471 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,574 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,575 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,575 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,679 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,680 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,680 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,777 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,778 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,778 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,883 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,884 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,885 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:21,985 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:21,986 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:21,987 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:22,088 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:22,089 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:22,089 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:23,226 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:23,227 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:23,228 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:23,327 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:23,328 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:23,329 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:23,428 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:23,429 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:23,429 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:23,527 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:23,528 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:23,529 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:23,659 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:23,660 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:23,660 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:23,763 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:23,764 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:23,765 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:23,984 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:23,988 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:23,989 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,087 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,088 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,089 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,220 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,221 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,222 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,321 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,322 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,323 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,456 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,457 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,457 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,558 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,559 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,559 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,662 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,663 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,664 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,761 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,762 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,763 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,892 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:24,893 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:24,894 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:24,999 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:25,000 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:25,000 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:25,102 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:25,103 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:25,104 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 10:39:25,239 - ERROR - Error in calculate_indicators for BNB/USDT: Cannot connect to host api.binance.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')]
+2024-08-14 10:39:25,240 - ERROR - No data available during signal check for BNB/USDT
+2024-08-14 10:39:25,240 - ERROR - EMA Crossover script down!
+Error message: 1 validation error for SignalPayload
+entry_price
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+2024-08-14 11:06:34,083 - ERROR - Error in calculate_indicators for BNB/USDT: binance GET https://fapi.binance.com/fapi/v1/klines?interval=15m&limit=1000&symbol=BNBUSDT
+2024-08-14 11:06:34,111 - ERROR - No data available during uptrend wait for BNB/USDT
