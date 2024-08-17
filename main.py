@@ -4,7 +4,7 @@ import ta
 import time
 from pydantic import BaseModel
 import api_connect
-
+import bot
 
 class SignalPayload(BaseModel):
     symbol: str
@@ -37,7 +37,7 @@ def main():
                 indicator='EMA'
             )
             response = miya_api.send_signal(signal_payload)
-
+            bot.start_trade()
             loggs.system_log.warning("Bullish crossover detected. Placing a buy order.")
         elif crossover_sell and last_close < long_ema.iloc[-1] and adx.iloc[-1] > 22:
             signal_payload = SignalPayload(
@@ -47,9 +47,8 @@ def main():
                 indicator='EMA'
             )
             response = miya_api.send_signal(signal_payload)
-
+            bot.start_trade()
             loggs.system_log.warning("Bearish crossover detected. Placing a sell order.")
-
         else:
             loggs.system_log.warning("No crossover detected.")
 

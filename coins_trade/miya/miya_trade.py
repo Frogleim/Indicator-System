@@ -1,16 +1,18 @@
 import time
 from binance.client import Client
-from . import tp_sl, position_handler, logging_settings, db
+from . import tp_sl, position_handler, logging_settings, api_connect
 from binance.exceptions import BinanceAPIException
 
 
-my_db = db.DataBase()
-API_KEY, API_SECRET = my_db.get_binance_keys()
+miya_api = api_connect.API()
+keys_data = miya_api.get_binance_keys()
+API_KEY = keys_data['api_key']
+API_SECRET = keys_data['api_secret']
 client = Client(API_KEY, API_SECRET)
 
 
 def trade(symbol, signal, entry_price, position_size, indicator):
-    my_db.clean_db(table_name='signals')
+    miya_api.clean_db(table_name='signals')
     logging_settings.system_log.warning(f'Starting trade. Symbol: {symbol}, '
                                         f'Entry Price: {entry_price}, Position Size: {position_size}')
     if signal == 'Sell':
@@ -46,12 +48,12 @@ def trade(symbol, signal, entry_price, position_size, indicator):
                     logging_settings.system_log.warning('Trade wasn\'t finished...too much time passed')
                     logging_settings.finish_trade_log.info(f'{symbol} Finished')
 
-                    my_db.insert_is_finished()
+                    miya_api.insert_is_finished()
 
                     break
             if open_orders['status'] == 'CANCELED':
                 logging_settings.finish_trade_log.info(f'{symbol} Finished')
-                my_db.insert_is_finished()
+                miya_api.insert_is_finished()
 
                 break
             if open_orders['status'] == 'FILLED':
@@ -66,7 +68,7 @@ def trade(symbol, signal, entry_price, position_size, indicator):
                         position_handler.close_position(side='long', quantity=position_size)
                     logging_settings.finish_trade_log.info(f'{symbol} Finished')
 
-                    my_db.insert_is_finished()
+                    miya_api.insert_is_finished()
 
                     break
 
@@ -79,7 +81,7 @@ def trade(symbol, signal, entry_price, position_size, indicator):
                         position_handler.close_position(side='long', quantity=position_size)
                     logging_settings.finish_trade_log.info(f'{symbol} Finished')
 
-                    my_db.insert_is_finished()
+                    miya_api.insert_is_finished()
 
                     break
 
@@ -115,12 +117,12 @@ def trade(symbol, signal, entry_price, position_size, indicator):
                     client.futures_cancel_order(symbol=symbol, orderId=int(order_info['orderId']))
                     logging_settings.system_log.warning('Trade wasn\'t finished...too much time passed')
                     logging_settings.finish_trade_log.info(f'{symbol} Finished')
-                    my_db.insert_is_finished()
+                    miya_api.insert_is_finished()
 
                     break
             if open_orders['status'] == 'CANCELED':
                 logging_settings.finish_trade_log.info(f'{symbol} Finished')
-                my_db.insert_is_finished()
+                miya_api.insert_is_finished()
 
                 break
             if open_orders['status'] == 'FILLED':
@@ -133,7 +135,7 @@ def trade(symbol, signal, entry_price, position_size, indicator):
                         logging_settings.error_logs_logger.error(e)
                         position_handler.close_position(side='short', quantity=position_size)
                     logging_settings.finish_trade_log.info(f'{symbol} Finished')
-                    my_db.insert_is_finished()
+                    miya_api.insert_is_finished()
 
                     break
 
@@ -145,7 +147,7 @@ def trade(symbol, signal, entry_price, position_size, indicator):
                         logging_settings.error_logs_logger.error(e)
                         position_handler.close_position(side='short', quantity=position_size)
                     logging_settings.finish_trade_log.info(f'{symbol} Finished')
-                    my_db.insert_is_finished()
+                    miya_api.insert_is_finished()
 
                     break
 

@@ -3,10 +3,7 @@ import warnings
 warnings.filterwarnings(action='ignore')
 
 import pandas as pd
-import numpy as np
 from binance.client import Client
-import aiohttp
-import logging
 import ta
 from . import logging_settings
 

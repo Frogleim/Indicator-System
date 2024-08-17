@@ -1,5 +1,5 @@
 from binance.client import Client
-from . import config, db
+from . import config, api_connect
 import logging
 import os
 
@@ -11,11 +11,12 @@ price_difference = 0.0
 base_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(base_dir)
 grandparent_dir = os.path.dirname(parent_dir)
-my_db = db.DataBase()
-API_KEY, API_SECRET = my_db.get_binance_keys()
 logging.basicConfig(
     level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+miya_api = api_connect.API()
+keys_data = miya_api.get_binance_keys()
+API_KEY = keys_data['api_key']
+API_SECRET = keys_data['api_secret']
 
 def close_position(side, quantity):
     client = Client(api_key=API_KEY, api_secret=API_SECRET)
