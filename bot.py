@@ -11,12 +11,13 @@ api = api_connect.API()
 
 def start_trade():
     signal_data = api.get_signal()
+    print(signal_data)
     settings = api.get_settings()
-    if signal_data is not None:
+    if signal_data[0] is not None:
         miya_trade.trade(
-            symbol=signal_data[1],
-            signal=signal_data[2],
-            entry_price=signal_data[3],
+            symbol=signal_data[0][1],
+            signal=signal_data[0][2],
+            entry_price=signal_data[0][3],
             position_size=settings[0]['value'],
             indicator=settings[0]['indicator']
         )
